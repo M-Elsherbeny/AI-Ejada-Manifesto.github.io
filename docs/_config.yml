@@ -1,6 +1,6 @@
 title: AI Ejada Manifesto
 description: Software Development Life Cycle Framework for AI-Driven Solutions
-baseurl: "/AI-Ejada-Manifesto.github.io"
+baseurl: ""  # Remove the repository name from baseurl
 url: "https://m-elsherbeny.github.io"
 
 markdown: kramdown
