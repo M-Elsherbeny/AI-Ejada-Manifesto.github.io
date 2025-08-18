@@ -1,1 +1,0 @@
-# heer will be the sdlc framework

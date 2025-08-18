@@ -25,7 +25,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  logo: assets/logo.png
+  logo: assets/ejada_logo.png
   favicon: assets/favicon.ico
   features:
     - navigation.instant
@@ -71,24 +71,22 @@ markdown_extensions:
 nav:
   - Home: index.md
   - SDLC Framework:
-    - Overview: sdlc/index.md
-    - Planning: sdlc/planning.md
-    - Design: sdlc/design.md
-    - Development: sdlc/development.md
-    - Testing: sdlc/testing.md
-    - Deployment: sdlc/deployment.md
-    - Maintenance: sdlc/maintenance.md
-  - AI Principles:
-    - Overview: ai-principles/index.md
-    - Ethics & Bias: ai-principles/ethics.md
-    - Data Governance: ai-principles/data-governance.md
-    - Model Lifecycle: ai-principles/model-lifecycle.md
-    - MLOps: ai-principles/mlops.md
-  - Best Practices:
-    - Overview: best-practices/index.md
-    - Code Standards: best-practices/code-standards.md
-    - Documentation: best-practices/documentation.md
-    - Security: best-practices/security.md
+    - Overview: sdlc/SDLC.md
+    # - Planning: sdlc/planning.md
+    # - Design: sdlc/design.md
+    # - Development: sdlc/development.md
+    # - Testing: sdlc/testing.md
+    # - Deployment: sdlc/deployment.md
+    # - Maintenance: sdlc/maintenance.md
+  - Tracker:
+    - AI Component Development Tracker: Tracker/AI-Component-Development-Tracker.md
+    - AI Component Identification Card: Tracker/AI-Component-Identification-Card.md
+    
+  - R&D:
+    # - Overview: R&D/index.md
+    - Lifecycle Model: R&D/rd_lifecycle_model.md
+    - Project Documentation Template: R&D/rd_project_documentation_template.md
+    - Proposal Template: R&D/rd_proposal_template.md
   - Tools & Resources: tools.md
   - Contributing: contributing.md
 
