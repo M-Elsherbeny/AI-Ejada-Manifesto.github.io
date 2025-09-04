@@ -52,7 +52,7 @@ nav:
     - Project Documentation Template: R&D/rd_project_documentation_template.md
     - Proposal Template: R&D/rd_proposal_template.md
   - Tools & Resources: tools.md
-  - Contributing: contributing.md
+  - Contributing: CONTRIBUTING.md
 
 extra:
   social:
