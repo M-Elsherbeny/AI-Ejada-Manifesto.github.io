@@ -44,7 +44,7 @@ jobs:
       - name: Validate configuration
         run: |
           echo "🔍 Validating MkDocs configuration..."
-          mkdocs config
+          mkdocs build --clean --quiet
           echo "✅ Configuration is valid"
       
       - name: Build site
@@ -70,4 +70,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 
+fix 
