@@ -1,4 +1,4 @@
-# AI Ejada Manifesto
+# AI Ejada Playbook
 
 Welcome to the AI Ejada Software Development Life Cycle (SDLC) Framework - a comprehensive guide for building AI-powered solutions with excellence, ethics, and innovation.
 
@@ -8,7 +8,7 @@ To establish best practices, standards, and principles for AI-driven software de
 ## Quick Start
 - [SDLC Framework](sdlc/) - Our complete development methodology
 - [AI Principles](ai-principles/) - Ethical AI development guidelines
-- [Contributing](contributing.md) - How to contribute to this manifesto
+- [Contributing](contributing.md) - How to contribute to this playbook
 
 ## Core Values
 - **Excellence** in software craftsmanship
