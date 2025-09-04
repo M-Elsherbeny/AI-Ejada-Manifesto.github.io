@@ -354,7 +354,7 @@
 > **📅 Last Review**: 2025-06-17  
 > **👤 Reviewed By**: Jane Doe (Technical Lead)  
 > **📝 Next Review**: 2025-07-17  
-> **🔗 Related Documents**: [Technical Specification](./tech-spec.md) | [API Documentation](./api-docs.yaml) | [Runbook](./runbook.md)
+
 
 ---
 
