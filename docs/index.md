@@ -6,9 +6,8 @@ Welcome to the AI Ejada Software Development Life Cycle (SDLC) Framework - a com
 To establish best practices, standards, and principles for AI-driven software development that ensures quality, scalability, and responsible AI implementation.
 
 ## Quick Start
-- [SDLC Framework](sdlc/) - Our complete development methodology
-- [AI Principles](ai-principles/) - Ethical AI development guidelines
-- [Contributing](contributing.md) - How to contribute to this playbook
+- [SDLC Framework](sdlc/SDLC.md) - Our complete development methodology
+- [Contributing](CONTRIBUTING.md) - How to contribute to this playbook
 
 ## Core Values
 - **Excellence** in software craftsmanship
@@ -18,12 +17,12 @@ To establish best practices, standards, and principles for AI-driven software de
 - **Continuous Learning** and improvement
 
 ## SDLC Phases
-1. [Planning](sdlc/planning/) - Requirements and project planning
-2. [Design](sdlc/design/) - Architecture and system design  
-3. [Development](sdlc/development/) - Coding standards and practices
-4. [Testing](sdlc/testing/) - Quality assurance and validation
-5. [Deployment](sdlc/deployment/) - Release and deployment strategies
-6. [Maintenance](sdlc/maintenance/) - Ongoing support and evolution
+1. **Planning** - Requirements and project planning
+2. **Design** - Architecture and system design  
+3. **Development** - Coding standards and practices
+4. **Testing** - Quality assurance and validation
+5. **Deployment** - Release and deployment strategies
+6. **Maintenance** - Ongoing support and evolution
 
 ---
 *Last updated: {{ site.time | date: "%B %d, %Y" }}*
