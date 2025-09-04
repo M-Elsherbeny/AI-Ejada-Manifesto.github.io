@@ -45,7 +45,8 @@ jobs:
       - name: Validate MkDocs configuration
         run: |
           echo "🔍 Validating MkDocs configuration..."
-          mkdocs config
+          # Test if mkdocs.yml is valid by doing a dry run build
+          mkdocs build --clean --quiet
           echo "✅ MkDocs configuration is valid"
       
       - name: Check for broken links
