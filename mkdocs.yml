@@ -1,72 +1,36 @@
-site_name: AI Ejada Manifesto
+site_name: AI Ejada Playbook
 site_url: https://m-elsherbeny.github.io/AI-Ejada-Manifesto.github.io
 site_description: Software Development Life Cycle Framework for AI-Driven Solutions
 site_author: M-Elsherbeny
 
 repo_url: https://github.com/M-Elsherbeny/AI-Ejada-Manifesto.github.io
-edit_uri: edit/main/docs/
+edit_uri: ""
 
 theme:
   name: material
   font:
     text: Roboto
   palette:
-    # Palette toggle for light mode
-    - scheme: default
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    primary: black
   logo: assets/ejada_logo.png
   favicon: assets/ejada_logo.png
   features:
     - navigation.instant
     - navigation.indexes
-    - navigation.top
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
 
 plugins:
-  - search:
-      lang: en
-  - git-revision-date-localized:
-      type: date
+  - search
+  - git-revision-date-localized
+  - awesome-pages
 
 markdown_extensions:
   - meta
   - admonition
-  - pymdownx.details
+  - pymdownx.highlight
   - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      permalink: true
+  - pymdownx.pathconverter
+  - pymdownx.tabbed
+  - pymdownx.tasklist
 
 nav:
   - Home: index.md
@@ -96,4 +60,4 @@ extra:
       link: https://github.com/M-Elsherbeny
   generator: false
 
-copyright: Copyright &copy; 2025 M-Elsherbeny - AI Ejada Manifesto
+copyright: Copyright &copy; 2025 M-Elsherbeny - AI Ejada Playbook

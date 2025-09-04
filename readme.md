@@ -1,4 +1,4 @@
-# 🚀 AI Ejada Manifesto
+# 🚀 AI Ejada Playbook
 
 > **A comprehensive Software Development Life Cycle (SDLC) framework for AI-driven solutions with excellence, ethics, and innovation at its core.**
 
